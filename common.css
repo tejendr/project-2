@@ -1,0 +1,21 @@
+header {
+            background-color: #2c2966 !important;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+header h1{
+    text-align: left;
+}
+        /* Style for footer */
+        footer {
+            background-color: #2c2966 !important;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+        }

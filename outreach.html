@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="outreach.css">
+</head>
+<body>
+
+    <div class="container">
+        
+        <nav>
+            <ul>
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="#">Outreach</a></li>
+                <li class="active"><a href="#">Candidates Screening</a></li>
+                <li><a href="#">Positions</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <div class="screening-options">
+                <h2>Select Position</h2>
+                <select name="position" id="position">
+                    <option value="">--Select Position--</option>
+                    <option value="position 1">Position 1</option>
+                    <option value="position 2">Position 2</option>
+                    <option value="position 3">Position 3</option>
+                </select>
+                <h2>Department</h2>
+                <select name="department" id="department">
+                    <option value="">--Select Department--</option>
+                    <option value="department 1">Department 1</option>
+                    <option value="department 2">Department 2</option>
+                    <option value="department 3">Department 3</option>
+                </select>
+            </div>
+            <div class="add-candidate">
+                <h2>Add Candidate One by One</h2>
+                <form action="#" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <button type="submit">Add</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>All Copyrights Reserved @2024</p>
+    </footer>
+</body>
+</html>
